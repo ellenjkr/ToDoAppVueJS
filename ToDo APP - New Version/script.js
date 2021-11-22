@@ -1,22 +1,25 @@
-const newTodoItem = {
+const addTodoItem = {
     data: () => ({
-        item
+        item: null
     }),
     methods: {
-        /*handleInput() {
-            this.
-        }*/
+        addToDo() {
+            if(this.item){
+                this.$emit('added', this.item);
+            }
+        }
     },
+    // input tem um v-model para que o item seja alterado conforme o input
     template: `
         <div class="add_todo">
             <label for="new_todo">New ToDo</label>
             <input type="text" id="new_todo" placeholder="new todo item" v-model="item">
-            <button @click="handleInput">Add ToDo</button>
+            <button @click="addToDo">Add ToDo</button>
         </div>
     `
 }
 
-const todoItem = {
+const newTodoItem = {
     props: ['value', 'item'],
     data: () => ({
         content: this.value
@@ -30,9 +33,10 @@ const todoItem = {
 }
 
 const vm = new Vue({
-    el: '#list_todo',
+    el: '#app',
     components: {
-        'new-item': todoItem
+        'add-item': addTodoItem,
+        'new-item': newTodoItem
     }
 })
 

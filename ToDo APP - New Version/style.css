@@ -42,20 +42,18 @@ body {
 
 .list_content p{
     text-align: justify;
-    /*margin-right: 20px;*/
+    margin-right: 20px;
 }
 
 .list_content button{
-   /* margin-left: inherit;
-    margin-bottom: 10px;*/
+    margin-left: inherit;
+    margin-bottom: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    /*height: 30px;
+    height: 30px;
     align-self: flex-end;
-    position: right;*/
-    transform: translate("-50%", "-50%");
 }
 
 hr{
