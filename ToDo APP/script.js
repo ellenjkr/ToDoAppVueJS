@@ -36,4 +36,5 @@ const vm = new Vue({
     }
 })
 
+// teste
 //https://www.devaradise.com/vue-example-projects
