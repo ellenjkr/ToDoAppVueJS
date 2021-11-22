@@ -1,0 +1,70 @@
+body {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    color: white;
+    background-color:rgb(44, 44, 44);
+    text-align: center;
+}
+
+div.add_todo label{
+    padding-right: 0.2cm;
+}
+
+div.add_todo button{
+    margin-left: 0.1cm;
+    height: 0.8cm;
+    width: 2.5cm;
+    font-size: 11pt;
+}
+
+div.list_todo h3{
+    margin-right: 4.5cm;
+    margin-bottom: 0.2cm;;
+}
+
+div.list_content {
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    margin-top: 0.5cm;
+    border: 2.5px solid gray;
+    border-radius: 0.2cm;
+    text-align: right;
+}
+
+div.list_content p{
+    text-align: left;
+}
+
+div.list_content button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input{
+    height: 0.7cm;
+    border-radius: 0.2cm;
+    border-style:solid;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+hr{
+    width: 9cm;
+    margin-top: 0cm;
+}
+
+button{
+    border-style: solid;
+    border-radius: 0.2cm;
+    cursor: pointer;
+    background-color: rgb(151, 139, 218);
+    font-weight: bolder;
+}
+
+::placeholder{
+    padding-left: 0.2cm;
+}
