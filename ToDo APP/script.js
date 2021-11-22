@@ -3,9 +3,9 @@ const newTodoItem = {
         item
     }),
     methods: {
-        handleInput() {
+        /*handleInput() {
             this.
-        }
+        }*/
     },
     template: `
         <div class="add_todo">
@@ -36,5 +36,4 @@ const vm = new Vue({
     }
 })
 
-// teste 2
 //https://www.devaradise.com/vue-example-projects

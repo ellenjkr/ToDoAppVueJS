@@ -5,46 +5,11 @@ body {
     text-align: center;
 }
 
-div.add_todo label{
+.add_todo label{
     padding-right: 0.2cm;
 }
 
-div.add_todo button{
-    margin-left: 0.1cm;
-    height: 0.8cm;
-    width: 2.5cm;
-    font-size: 11pt;
-}
-
-div.list_todo h3{
-    margin-right: 4.5cm;
-    margin-bottom: 0.2cm;;
-}
-
-div.list_content {
-    width: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    margin: 0 auto;
-    margin-top: 0.5cm;
-    border: 2.5px solid gray;
-    border-radius: 0.2cm;
-    text-align: right;
-}
-
-div.list_content p{
-    text-align: left;
-}
-
-div.list_content button{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-input{
+.add_todo input{
     height: 0.7cm;
     border-radius: 0.2cm;
     border-style:solid;
@@ -52,8 +17,49 @@ input{
     color: white;
 }
 
+.add_todo button{
+    margin-left: 0.1cm;
+    height: 0.8cm;
+    width: 2.5cm;
+    font-size: 11pt;
+}
+
+.list_todo h3{
+    margin-right: 7.5cm;
+    margin-bottom: 0.2cm;;
+}
+
+.list_content {
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    margin-top: 0.5cm;
+    border: 2.5px solid gray;
+    border-radius: 0.2cm;
+    display: flex;
+}
+
+.list_content p{
+    text-align: justify;
+    /*margin-right: 20px;*/
+}
+
+.list_content button{
+   /* margin-left: inherit;
+    margin-bottom: 10px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*height: 30px;
+    align-self: flex-end;
+    position: right;*/
+    transform: translate("-50%", "-50%");
+}
+
 hr{
-    width: 9cm;
+    width: 10cm;
     margin-top: 0cm;
 }
 
